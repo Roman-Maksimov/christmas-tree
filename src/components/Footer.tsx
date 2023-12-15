@@ -28,49 +28,83 @@ export const Footer: FC = () => {
 
       <Stack
         component="a"
-        href="https://blog.frontend-almanac.ru"
+        href="https://t.me/frontend_almanac_ru"
         direction="row"
         alignItems="center"
         gap={2}
       >
-        <svg width="24px" height="24px" viewBox="0 0 256 256" version="1.1">
-          <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-            <circle id="Oval" fill="#F4D71A" cx="128" cy="128" r="128" />
-            <path
-              d="M59,144.44 L59,134.24 L40.82,128 L59,121.76 L59,111.56 L28.4,122.66 L28.4,133.34 L59,144.44 Z M79.88,149 L79.88,135.56 L97.4,135.56 L97.4,124.88 L79.88,124.88 L79.88,117.68 L99.86,117.68 L99.86,107 L65.72,107 L65.72,149 L79.88,149 Z M114.2,149 L117.02,141.68 L132.98,141.68 L135.8,149 L150.44,149 L132.08,107 L118.16,107 L99.8,149 L114.2,149 Z M129.08,131.48 L120.92,131.48 L125,120.92 L129.08,131.48 Z M176.9,155 L196.7,98.48 L184.7,98.48 L164.9,155 L176.9,155 Z M197,144.44 L227.6,133.34 L227.6,122.66 L197,111.56 L197,121.76 L215.18,128 L197,134.24 L197,144.44 Z"
-              id="&lt;FA/&gt;"
-              fill="#000000"
-              fillRule="nonzero"
-            />
-          </g>
+        <svg width="24px" height="24px" viewBox="0 0 240.1 240.1">
+          <linearGradient
+            id="Oval_1_"
+            gradientUnits="userSpaceOnUse"
+            x1="-838.041"
+            y1="660.581"
+            x2="-838.041"
+            y2="660.3427"
+            gradientTransform="matrix(1000 0 0 -1000 838161 660581)"
+          >
+            <stop offset="0" style={{ stopColor: "#2AABEE" }} />
+            <stop offset="1" style={{ stopColor: "#229ED9" }} />
+          </linearGradient>
+          <circle
+            fillRule="evenodd"
+            clipRule="evenodd"
+            fill="url(#Oval_1_)"
+            cx="120.1"
+            cy="120.1"
+            r="120.1"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            fill="#FFFFFF"
+            d="M54.3,118.8c35-15.2,58.3-25.3,70-30.2 c33.3-13.9,40.3-16.3,44.8-16.4c1,0,3.2,0.2,4.7,1.4c1.2,1,1.5,2.3,1.7,3.3s0.4,3.1,0.2,4.7c-1.8,19-9.6,65.1-13.6,86.3 c-1.7,9-5,12-8.2,12.3c-7,0.6-12.3-4.6-19-9c-10.6-6.9-16.5-11.2-26.8-18c-11.9-7.8-4.2-12.1,2.6-19.1c1.8-1.8,32.5-29.8,33.1-32.3 c0.1-0.3,0.1-1.5-0.6-2.1c-0.7-0.6-1.7-0.4-2.5-0.2c-1.1,0.2-17.9,11.4-50.6,33.5c-4.8,3.3-9.1,4.9-13,4.8 c-4.3-0.1-12.5-2.4-18.7-4.4c-7.5-2.4-13.5-3.7-13-7.9C45.7,123.3,48.7,121.1,54.3,118.8z"
+          />
         </svg>
 
         <Typography variant="body2">
-          [RU] https://blog.frontend-almanac.ru
+          [RU] https://t.me/frontend_almanac_ru
         </Typography>
       </Stack>
 
       <Stack
         component="a"
-        href="https://blog.frontend-almanac.com"
+        href="https://t.me/frontend_almanac"
         direction="row"
         alignItems="center"
         gap={2}
       >
-        <svg width="24px" height="24px" viewBox="0 0 256 256" version="1.1">
-          <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-            <circle id="Oval" fill="#F4D71A" cx="128" cy="128" r="128" />
-            <path
-              d="M59,144.44 L59,134.24 L40.82,128 L59,121.76 L59,111.56 L28.4,122.66 L28.4,133.34 L59,144.44 Z M79.88,149 L79.88,135.56 L97.4,135.56 L97.4,124.88 L79.88,124.88 L79.88,117.68 L99.86,117.68 L99.86,107 L65.72,107 L65.72,149 L79.88,149 Z M114.2,149 L117.02,141.68 L132.98,141.68 L135.8,149 L150.44,149 L132.08,107 L118.16,107 L99.8,149 L114.2,149 Z M129.08,131.48 L120.92,131.48 L125,120.92 L129.08,131.48 Z M176.9,155 L196.7,98.48 L184.7,98.48 L164.9,155 L176.9,155 Z M197,144.44 L227.6,133.34 L227.6,122.66 L197,111.56 L197,121.76 L215.18,128 L197,134.24 L197,144.44 Z"
-              id="&lt;FA/&gt;"
-              fill="#000000"
-              fillRule="nonzero"
-            />
-          </g>
+        <svg width="24px" height="24px" viewBox="0 0 240.1 240.1">
+          <linearGradient
+            id="Oval_1_"
+            gradientUnits="userSpaceOnUse"
+            x1="-838.041"
+            y1="660.581"
+            x2="-838.041"
+            y2="660.3427"
+            gradientTransform="matrix(1000 0 0 -1000 838161 660581)"
+          >
+            <stop offset="0" style={{ stopColor: "#2AABEE" }} />
+            <stop offset="1" style={{ stopColor: "#229ED9" }} />
+          </linearGradient>
+          <circle
+            fillRule="evenodd"
+            clipRule="evenodd"
+            fill="url(#Oval_1_)"
+            cx="120.1"
+            cy="120.1"
+            r="120.1"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            fill="#FFFFFF"
+            d="M54.3,118.8c35-15.2,58.3-25.3,70-30.2 c33.3-13.9,40.3-16.3,44.8-16.4c1,0,3.2,0.2,4.7,1.4c1.2,1,1.5,2.3,1.7,3.3s0.4,3.1,0.2,4.7c-1.8,19-9.6,65.1-13.6,86.3 c-1.7,9-5,12-8.2,12.3c-7,0.6-12.3-4.6-19-9c-10.6-6.9-16.5-11.2-26.8-18c-11.9-7.8-4.2-12.1,2.6-19.1c1.8-1.8,32.5-29.8,33.1-32.3 c0.1-0.3,0.1-1.5-0.6-2.1c-0.7-0.6-1.7-0.4-2.5-0.2c-1.1,0.2-17.9,11.4-50.6,33.5c-4.8,3.3-9.1,4.9-13,4.8 c-4.3-0.1-12.5-2.4-18.7-4.4c-7.5-2.4-13.5-3.7-13-7.9C45.7,123.3,48.7,121.1,54.3,118.8z"
+          />
         </svg>
 
         <Typography variant="body2">
-          [EN] https://blog.frontend-almanac.com
+          [EN] https://t.me/frontend_almanac
         </Typography>
       </Stack>
     </Stack>
