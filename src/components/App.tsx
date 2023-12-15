@@ -1,12 +1,18 @@
-import { ThemeProvider } from "@mui/material";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 import React, { FC } from "react";
+
 import { theme } from "../theme/theme";
-import { Tree } from "./Tree";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
+import { Scene } from "./Scene";
 
 export const App: FC = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Tree />
+      <CssBaseline />
+      <Scene />
+      <Header />
+      <Footer />
     </ThemeProvider>
   );
 };

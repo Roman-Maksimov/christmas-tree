@@ -29,7 +29,21 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "plugins": ["unused-imports", "simple-import-sort"],
+    "overrides": [{
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "simple-import-sort/imports": [
+          "warn",
+          {
+            "groups": [["^\\u0000"], ["^@?\\w"], ["^"], ["^\\."], ["\\./.*\\.(css|scss|less)$"]]
+          }
+        ],
+        "simple-import-sort/exports": "error",
+        "unused-imports/no-unused-imports": "warn"
+      }
+    }]
   },
   "browserslist": {
     "production": [
@@ -44,6 +58,8 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "3.1.1"
   }
 }
